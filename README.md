@@ -33,6 +33,25 @@ npm run dev
 
 OBS: Import the collection through the "thunder-collection cars.json" file to test the routes in the Thunder Client
 
+## How to run tests
+
+1. Follow the steps in the last section
+
+2. Configure the `.env.test` file using the `.env.example` file
+   OBS: name the test database different from the development database
+
+3. Run all migrations
+
+```
+npm run test:migration:run
+```
+
+4. Run test: (locally)
+
+```
+npm run test
+```
+
 ## Routes
 
 ### Movie Genres
@@ -80,7 +99,7 @@ OBS: Import the collection through the "thunder-collection cars.json" file to te
   [
     {
     "id": 1,
-    "name": "Mad Max: Estrada da FúriaI",
+    "name": "Mad Max: Estrada da Fúria",
     "streaming_services": {
       "name": "HBO Max"
     },
@@ -132,7 +151,7 @@ OBS: Import the collection through the "thunder-collection cars.json" file to te
   [
     {
     "id": 1,
-    "name": "Mad Max: Estrada da FúriaI",
+    "name": "Mad Max: Estrada da Fúria",
     "streaming_services": {
       "name": "HBO Max"
     },
